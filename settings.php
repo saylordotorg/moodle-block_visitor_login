@@ -31,7 +31,7 @@ if ($ADMIN->fulltree) {
                    get_string('configcookieexpiretime', 'block_visitor_login'), 2, PARAM_INT));
     $settings->add(new admin_setting_configtext('block_visitor_login/countitemsvisited', get_string('countitemsvisited', 'block_visitor_login'),
                    get_string('configcountitemsvisited', 'block_visitor_login'), 4, PARAM_INT));
-    $settings->add(new admin_setting_configtext('block_visitor_login/redirecturl', get_string('redirecturl', 'block_visitor_login'),
+    $settings->add(new admin_setting_configtext('block_visitor_login/casurl', get_string('casurl', 'block_visitor_login'),
                    get_string('configredirecturl', 'block_visitor_login'), '', PARAM_TEXT));
     
 }
